@@ -53,12 +53,12 @@ const ServiceCard = ({ title, description, icon, href }) => (
 
 export default function ServicesSection() {
     return (
-        <section className="py-12 sm:py-16 md:py-20 lg:py-10 px-4 sm:px-6 font-montserrat">
+        <section className="py-12 sm:py-16 md:py-20 lg:py-10 px-4 sm:px-6 bg-white font-montserrat">
             <div className="max-w-7xl  mx-auto">
                 {/* --- Header Section --- */}
                 <div className="text-center md:text-left max-w-3xl md:mb-14 lg:mb-19 mx-auto">
                     <p className="text-base sm:text-lg font-semibold text-[#ff9800] uppercase tracking-wide">
-                        Our Services
+                    Our Services
                     </p>
 
                     <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold text-[#0c0d62] leading-tight">
