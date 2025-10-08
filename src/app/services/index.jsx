@@ -33,7 +33,8 @@ const services = [
 
 export default function ServicesPage() {
     return (
-        <section className="py-12 px-4 sm:px-6 lg:px-16 font-montserrat max-w-7xl mx-auto">
+        <section className="py-12 px-4 sm:px-6 lg:px-16 font-montserrat max-w-7xl mx-auto"
+            id="services">
             <div className="text-center mb-12">
                 <p className="text-base sm:text-lg font-semibold text-[#ff9800] uppercase tracking-wide">
                     Our Services
