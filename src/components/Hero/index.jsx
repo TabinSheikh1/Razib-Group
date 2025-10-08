@@ -25,14 +25,14 @@ export default function HeroSection() {
             <div className="relative flex justify-center items-center w-full">
                 {/* iPad-style background */}
                 <div
-                    className="absolute left-0 right-0 mt-10 sm:mt-16 md:mt-20 lg:mt-38 h-[140px] sm:h-[200px] md:h-[230px] lg:h-[250px] bg-[#0c0d62] rounded-2xl"
+                    className="absolute left-0 right-0 lg:mb-16 md:mb-15 sm:mt-16 h-[140px] sm:h-[200px] md:h-[230px] lg:h-[250px] bg-[#0c0d62]"
                     style={{ zIndex: 1 }}
                 ></div>
                 {/* iPad-style Swiper container */}
                 <div
                     className="
                         relative
-                        w-[65vw] sm:w-[80vw] md:w-[60vw] lg:max-w-2xl
+                        w-[65vw] sm:w-[80vw] md:w-[80vw] lg:w-[90%]
                         h-[180px] sm:h-[300px] md:h-[310px] lg:h-[400px] border-6
                         rounded-3xl lg:border-8 sm:border-5 md:border-8  border-black flex items-center justify-center shadow-3xl"
                     style={{ zIndex: 1 }}
@@ -43,7 +43,7 @@ export default function HeroSection() {
                         slidesPerView={1}
                         loop={true}
                         autoplay={{
-                            delay: 1600,
+                            delay: 1900,
                             disableOnInteraction: false,
                         }}
                         pagination={{ clickable: true }}
@@ -54,7 +54,7 @@ export default function HeroSection() {
                                 <img
                                     src={slide.src}
                                     alt={slide.alt}
-                                    className="w-full h-full object-fit rounded-xl"
+                                    className="w-full h-full object-cover rounded-xl"
                                 />
                             </SwiperSlide>
                         ))}
