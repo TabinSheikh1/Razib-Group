@@ -7,9 +7,10 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 
 const slides = [
-    { id: 1, src: '/images/s1.jpg', alt: 'Modern skyscrapers from below' },
-    { id: 2, src: '/images/s2.jpg', alt: 'City skyline at dusk' },
-    { id: 3, src: '/images/s3.jpg', alt: 'Abstract view of glass buildings' },
+    { id: 1, src: '/images/civil-bg.jpg', alt: 'Modern skyscrapers from below' },
+    { id: 2, src: '/images/technology-consulting-bg.jpg', alt: 'City skyline at dusk' },
+    { id: 3, src: '/images/tax-legal-advisory-bg.jpg', alt: 'Abstract view of glass buildings' },
+    // { id: 4, src: '/images/telecom&solution-bg.jpg', alt: 'Abstract view of glass buildings' },
 ];
 
 export default function HeroSection() {
@@ -43,7 +44,7 @@ export default function HeroSection() {
                         slidesPerView={1}
                         loop={true}
                         autoplay={{
-                            delay: 1900,
+                            delay: 1700,
                             disableOnInteraction: false,
                         }}
                         pagination={{ clickable: true }}
