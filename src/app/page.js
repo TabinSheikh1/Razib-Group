@@ -4,9 +4,9 @@ import { usePathname } from "next/navigation";
 import Navigation from "../components/navigation";
 import TestimonialsSection from "@/components/Testimonials";
 import Hero from "../components/Hero";
-import Services from "../components/Services";
-import AboutUs from "../components/AboutUs";
 import Services from "./services";
+import AboutUs from "../components/AboutUs";
+
 import Footer from "../components/Footer";
 import GetInTouch from "../components/GetInTouch";
 export default function Home() {
@@ -26,7 +26,7 @@ export default function Home() {
     <Navigation/>
     <Hero/>
     <AboutUs />
-    <Services/>
+    <Services />
     <TestimonialsSection/>
     <GetInTouch />
       <Footer />
