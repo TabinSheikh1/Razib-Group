@@ -184,7 +184,7 @@ export default function EngineeringPage() {
           className="absolute inset-0 w-full h-full object-cover"
         />
         <div className="hero-content absolute inset-0 bg-black/50 flex flex-col items-center justify-center text-center px-4">
-          <MdEngineering className="text-[#ff9800] text-5xl sm:text-6xl md:text-7xl mb-4" />
+          <MdEngineering className="text-[#ff9800] text-5xl sm:text-6xl md:text-7xl mb-4 animate-pulse" />
           <h1 className="text-white text-3xl sm:text-4xl md:text-6xl font-semibold mb-3 leading-tight">
             Engineering & Infrastructure
           </h1>
