@@ -7,9 +7,9 @@ import { usePathname, useRouter } from "next/navigation";
 const navItems = [
     { name: "About Us", id: "aboutUs", scroll: true },
     { name: "Services", id: "services", scroll: true },
-    { name: "Projects", href: "/projects" },
-    { name: "Careers", href: "/careers" },
-    { name: "Contact", href: "contact" },
+    // { name: "Projects", href: "/projects" },
+    // { name: "Careers", href: "/careers" },
+    { name: "Contact", href: "#contact" },
 ];
 
 export default function Navbar() {
@@ -91,7 +91,7 @@ export default function Navbar() {
                             <button
                                 key={item.name}
                                 onClick={() => scrollToSection(item.id)}
-                                className="text-gray-800 hover:text-[#ff9800] transition-all duration-300 relative group"
+                                className="text-gray-800 hover:text-[#ff9800] transition-all duration-300 relative group "
                             >
                                 {item.name}
                                 <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-[#ff9800] transition-all duration-300 group-hover:w-full"></span>

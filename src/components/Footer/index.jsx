@@ -13,17 +13,17 @@ import {
 } from "react-icons/fi";
 
 const usefulLinks = [
-    { name: "About", href: "/about" },
-    { name: "Services", href: "/services" },
-    { name: "Career", href: "/careers" },
-    { name: "Contact", href: "/contact" },
+    { name: "About Us", href: "#aboutUs"},
+    { name: "Services", href: "#services" },
+    // { name: "Career", href: "/careers" },
+    { name: "Contact", href: "#contact" },
 ];
 
 const socialLinks = [
-    { Icon: FiFacebook, href: "https://facebook.com" },
-    { Icon: FiTwitter, href: "https://twitter.com" },
-    { Icon: FiInstagram, href: "https://instagram.com" },
-    { Icon: FiLinkedin, href: "https://linkedin.com" },
+    // { Icon: FiFacebook, href: "https://facebook.com" },
+    // { Icon: FiTwitter, href: "https://twitter.com" },
+    // { Icon: FiInstagram, href: "https://instagram.com" },
+    { Icon: FiLinkedin, href: "https://www.linkedin.com/company/razibgroup/" },
 ];
 
 export default function Footer() {
@@ -47,8 +47,7 @@ export default function Footer() {
                         </div>
 
                         <p className="text-sm text-gray-400 max-w-xs">
-                            Many desktop publishing packages and web page editors now use
-                            Lorem Ipsum as their default model text.
+                            Building strong infrastructure enables technology, ensures compliance, and drives innovation.   
                         </p>
 
                         <div className="flex space-x-3 pt-2">
@@ -74,7 +73,7 @@ export default function Footer() {
                                 <li key={index}>
                                     <Link
                                         href={link.href}
-                                        className="text-gray-400 hover:text-white transition duration-150"
+                                        className="text-gray-400 hover:text-white transition duration-100"
                                     >
                                         {link.name}
                                     </Link>
@@ -93,18 +92,28 @@ export default function Footer() {
                             </li>
                             <li className="flex items-center text-gray-400">
                                 <FiMail size={16} className="mr-3 text-[#ff9800]" />
-                                <span>abdurrabrasel@gmail.com</span>
-                            </li>
-                            <li className="flex items-center text-gray-400">
-                                <FiMail size={16} className="mr-3 text-[#ff9800]" />
-                                <span>garel@razibgroup.com</span>
+                                <span>info@razibgroup.com</span>
                             </li>
                             <li className="flex items-start text-gray-400">
                                 <FiMapPin
                                     size={16}
                                     className="mr-3 mt-1 text-[#ff9800] flex-shrink-0"
                                 />
-                                <span>1212, Las Vegas, The Veg Street, USA</span>
+                                <span>NBQ bank building 1st floor office #105 Khalid bin Al Waleed street, Al Hamriya Bur, Dubai</span>
+                            </li>
+                            <li className="flex items-start text-gray-400">
+                                <FiMapPin
+                                    size={16}
+                                    className="mr-3 mt-1 text-[#ff9800] flex-shrink-0"
+                                />
+                                <span>Condomínio Pedras de Angola, Talatona, Luanda, Angola</span>
+                            </li>
+                            <li className="flex items-start text-gray-400">
+                                <FiMapPin
+                                    size={16}
+                                    className="mr-3 mt-1 text-[#ff9800] flex-shrink-0"
+                                />
+                                <span>117 Aleja "Solidarności" Street, Warsaw, 00-140, Poland</span>
                             </li>
                         </ul>
                     </div>
