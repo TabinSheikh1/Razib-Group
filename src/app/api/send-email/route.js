@@ -15,7 +15,7 @@ export async function POST(req) {
 
         const mailOptions = {
             from: "tabin758@gmail.com",
-            to: "tabin758@gmail.com", // send to yourself for now
+            to: "tabin758@gmail.com",
             subject: `New Contact Form Submission: ${subject}`,
             text: `
         Name: ${fullName}

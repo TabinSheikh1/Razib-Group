@@ -23,7 +23,7 @@ const socialLinks = [
     { Icon: FiFacebook, href: "https://facebook.com" },
     { Icon: FiTwitter, href: "https://twitter.com" },
     { Icon: FiInstagram, href: "https://instagram.com" },
-    { Icon: FiLinkedin, href: "https://linkedin.com" },
+    { Icon: FiLinkedin, href: "" },
 ];
 
 export default function Footer() {
