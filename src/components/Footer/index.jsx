@@ -120,9 +120,8 @@ export default function Footer() {
                 </div>
 
                 {/* Bottom Row */}
-                <div className="flex flex-col md:flex-row justify-between items-center pt-8 text-sm text-gray-400">
-                    <p>© www.razibgroup.com</p>
-                    <p className="mt-2 md:mt-0">{currentYear} | All Rights Reserved</p>
+                <div className="flex flex-col md:flex-row justify-between text-center pt-8 text-sm text-gray-400">
+                    <p className="mt-2 md:mt-0">© Razib Group 2025, Privacy Policy</p>
                 </div>
             </div>
         </footer>
