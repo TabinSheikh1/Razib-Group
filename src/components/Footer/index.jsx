@@ -13,7 +13,7 @@ import {
 } from "react-icons/fi";
 
 const usefulLinks = [
-    { name: "About Us", href: "#aboutUs"},
+    { name: "About Us", href: "#aboutUs" },
     { name: "Services", href: "#services" },
     // { name: "Career", href: "/careers" },
     { name: "Contact", href: "#contact" },
@@ -37,6 +37,12 @@ export default function Footer() {
                     {/* Column 1: Logo + About */}
                     <div className="w-full md:w-[30%] space-y-4">
                         <div className="flex items-center space-x-3">
+                            <img
+                                src="/images/bg-remove-logo.png"
+                                alt="Razib Group Logo"
+                                className={`w-[65px]  lg:ml-0 object-contain mt-3  transition-opacity duration-800 ease-out `}
+
+                            />
                             <Image
                                 src="/images/Logo-2.png"
                                 alt="Razib Group Logo"
@@ -47,7 +53,7 @@ export default function Footer() {
                         </div>
 
                         <p className="text-sm text-gray-400 max-w-xs">
-                            Building strong infrastructure enables technology, ensures compliance, and drives innovation.   
+                            Building strong infrastructure enables technology, ensures compliance, and drives innovation.
                         </p>
 
                         <div className="flex space-x-3 pt-2">
@@ -125,6 +131,6 @@ export default function Footer() {
                 </div>
             </div>
         </footer>
-        
+
     );
 }

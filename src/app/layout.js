@@ -14,6 +14,9 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "Razib Group",
   description: "Official Website Of Razib Group",
+   icons: {
+    icon: "/fav.png", 
+  },
 };
 
 export default function RootLayout({ children }) {

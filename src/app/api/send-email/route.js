@@ -1,31 +1,34 @@
 import nodemailer from "nodemailer";
 
-
 export async function POST(req) {
     try {
         const { fullName, email, subject, message } = await req.json();
 
         const transporter = nodemailer.createTransport({
-            service: "gmail",
+            host: "mail.razibgroup.com", // or smtp.titan.email if Titan
+            port: 465,
+            secure: true,
             auth: {
-                user: "tabin758@gmail.com",
-                pass: "bmtzyfevtmieglib",
+                user: "info@razibgroup.com", // must be lowercase and exact
+                pass: "Razibinfo123",
             },
         });
 
         const mailOptions = {
-            from: "tabin758@gmail.com",
-            to: "tabin758@gmail.com",
+            from: "info@razibgroup.com",
+            to: "info@razibgroup.com",
+            replyTo: email,
             subject: `New Contact Form Submission: ${subject}`,
             text: `
-        Name: ${fullName}
-        Email: ${email}
-        Subject: ${subject}
-        Message: ${message}
-      `,
+            Name: ${fullName}
+            Email: ${email}
+            Subject: ${subject}
+            Message: ${message}
+        `,
         };
 
         await transporter.sendMail(mailOptions);
+
         return new Response(JSON.stringify({ success: true }), { status: 200 });
     } catch (error) {
         console.error("Email sending error:", error);

@@ -62,11 +62,19 @@ export default function Navbar() {
         >
             {/* Logo with fade-in */}
             <div className="flex ml-[-80px] md:ml-0">
-                <Link href={"/"}>
+                <Link href={"/"} className="flex items-center  lg:flex-row">
+                    <img
+                        src="/images/logo_jpg.jpg"
+                        alt="Razib Group Logo"
+                         className={`w-[65px] ml-16 lg:ml-0 object-contain mt-3  transition-opacity duration-800 ease-out ${logoLoaded ? "opacity-100" : "opacity-0"
+                            }`}
+                        
+                    />
+                    <Link href={"/"} className="flex items-center"/>
                     <img
                         src="/images/Logo-1.png"
                         alt="Razib Group Logo"
-                        className={`w-[325px] md:w-[250px] lg:w-[325px] object-contain transition-opacity duration-1000 ease-out ${logoLoaded ? "opacity-100" : "opacity-0"
+                        className={`w-[125px] scale-325 object-contain transition-opacity duration-1000 ease-out ${logoLoaded ? "opacity-100" : "opacity-0"
                             }`}
                     />
                 </Link>

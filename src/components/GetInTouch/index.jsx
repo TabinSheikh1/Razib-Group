@@ -215,6 +215,8 @@ export default function ContactSection() {
       });
 
       const result = await response.json();
+      console.log(result);
+      
       if (result.success) {
         // Success animation
         gsap.to(buttonRef.current, {
