@@ -25,13 +25,13 @@ export default function Home() {
 
   return (
     <div>
-    <Navigation/>
-    <Hero/>
-    <AboutUs />
-    <Services />
-    <GetInTouch />
-    <ContactUs/>
-    <Footer />
+      <Navigation />
+      <Hero />
+      <AboutUs />
+      <Services />
+      <GetInTouch />
+      <ContactUs />
+      <Footer />
     </div>
   );
 }
