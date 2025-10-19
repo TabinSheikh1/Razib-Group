@@ -4,9 +4,9 @@ import Link from "next/link";
 
 export default function CricketMatch() {
     const images = [
-        "/images/fluxx-1.jpg",
-        "/images/fluxx-2.png",
-        "/images/fluxx-3.jpg",
+        "/images/awards-1.jpg",
+        "/images/awards-2.png",
+        "/images/awards-3.jpg",
     ];
 
     return (
@@ -19,7 +19,7 @@ export default function CricketMatch() {
                         <div key={index} className="w-full h-83 overflow-hidden rounded-lg">
                             <Image
                                 src={src}
-                                alt={`Cricket Match ${index + 1}`}
+                                alt={`Awards ${index + 1}`}
                                 width={400}
                                 height={400}
                                 className="w-full h-full object-contain"
