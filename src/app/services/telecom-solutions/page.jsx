@@ -121,7 +121,7 @@ export default function TelecomSolutionsPage() {
             {/* Hero Section */}
             <section
                 ref={heroRef}
-                className="relative w-full h-[70vh] sm:h-[80vh] md:h-[90vh] overflow-hidden"
+                className="relative mt-4 w-full h-[70vh]  sm:h-[80vh] md:h-[90vh] overflow-hidden"
             >
                 <img
                     src="/images/telecom&solution-bg.jpg"
@@ -149,7 +149,7 @@ export default function TelecomSolutionsPage() {
             </section>
 
             {/* What We Do */}
-            <section ref={whatWeDoRef} className="max-w-6xl mx-auto px-6 py-16 md:py-24">
+            <section ref={whatWeDoRef} className="max-w-6xl bg-white mx-auto px-6 py-16 md:py-24">
                 <h2 className="text-2xl sm:text-3xl font-bold mb-6 border-l-4 border-[#ff9800] pl-3 text-[#0c0d62] flex items-center gap-3">
                     <FaTools className="text-[#ff9800]" />
                     What We Do

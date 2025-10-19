@@ -63,9 +63,9 @@ export default function Footer() {
                                     href={link.href}
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="w-8 h-8 rounded-full border border-gray-500 flex items-center justify-center text-gray-400 hover:text-white hover:border-white transition duration-150"
+                                    className="w-8 h-8 rounded-full border border-gray-200 flex items-center justify-center text-gray-200 hover:text-white hover:border-white transition duration-150"
                                 >
-                                    <link.Icon size={16} />
+                                    <link.Icon size={18} />
                                 </Link>
                             ))}
                         </div>
@@ -93,8 +93,8 @@ export default function Footer() {
                         <h3 className="text-xl text-white font-semibold mb-2">Our Office</h3>
                         <ul className="space-y-3 text-sm">
                             <li className="flex items-center text-gray-400">
-                                <FiPhone size={16} className="mr-3 text-[#ff9800]" />
-                                <span>+791 50 742 4592</span>
+                                {/* <FiPhone size={16} className="mr-3 text-[#ff9800]" />
+                                <span>+791 50 742 4592</span> */}
                             </li>
                             <li className="flex items-center text-gray-400">
                                 <FiMail size={16} className="mr-3 text-[#ff9800]" />
