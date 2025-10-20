@@ -50,15 +50,20 @@ export default function HeroSection() {
                         pagination={{ clickable: true }}
                         className="w-full h-full rounded-xl"
                     >
-                        {slides.map((slide) => (
+                        {slides.map((slide, index) => (
                             <SwiperSlide key={slide.id}>
                                 <img
                                     src={slide.src}
                                     alt={slide.alt}
-                                    className="w-full h-full object-cover rounded-xl"
+                                    className={`w-full h-full rounded-xl ${index === slides.length - 1
+                                            ? 'object-contain md:object-cover bg-black'
+                                            : 'object-cover'
+                                        }`}
                                 />
                             </SwiperSlide>
                         ))}
+
+
                     </Swiper>
                 </div>
             </div>

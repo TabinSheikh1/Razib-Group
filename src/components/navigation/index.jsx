@@ -42,7 +42,8 @@ export default function Navbar() {
     // Trigger logo animation on mount
     useEffect(() => {
         setLogoLoaded(true);
-    }, []);
+        
+    }, [isOpen]);
 
     const handleMobileItemClick = (item) => {
         if (item.scroll) {
@@ -82,10 +83,10 @@ export default function Navbar() {
             </div>
 
             {/* Hamburger */}
-            <div className="block lg:hidden">
+            <div className="block relative lg:hidden">
                 <button
                     onClick={() => setIsOpen(!isOpen)}
-                    className="p-2 rounded-md text-gray-800 hover:bg-gray-100 focus:outline-none transition-transform duration-200 hover:scale-105"
+                    className="p-2 z-100 rounded-md text-gray-800 hover:bg-gray-100 focus:outline-none transition-transform duration-200 hover:scale-105"
                     aria-label="Toggle Menu"
                 >
                     {isOpen ? <X size={26} /> : <Menu size={26} />}
@@ -128,7 +129,7 @@ export default function Navbar() {
 
             {/* Mobile Menu */}
             <div
-                className={`block lg:hidden absolute top-full left-0 w-full bg-white shadow-lg overflow-hidden transition-all duration-300 ${isOpen ? "border-t border-gray-100" : ""
+                className={`block z-100 lg:hidden absolute top-full left-0 w-full bg-white shadow-lg overflow-hidden transition-all duration-300 ${isOpen ? "border-t border-gray-100" : ""
                     }`}
                 style={{ height: isOpen ? "auto" : 0 }}
             >
