@@ -145,7 +145,7 @@ const AboutUsSection = () => {
         >
             {/* Text Section */}
             <div ref={textRef} className="w-full lg:w-[70%]">
-                <h1 className="text-[#ff9800] montserrat-semiBold">About Us</h1>
+                <h1 className="text-[#ff9800] montserrat-bold text-2xl">ABOUT US</h1>
                 <h1
                     ref={headingRef}
                     className="text-[#0c0d62] montserrat-bold text-4xl sm:text-5xl mt-5"
@@ -154,7 +154,7 @@ const AboutUsSection = () => {
                 </h1>
                 <p
                     ref={(el) => (paragraphRefs.current[0] = el)}
-                    className="mb-2 mt-5 text-sm sm:text-base md:text-base lg:text-base text-gray-700 leading-relaxed"
+                    className="mb-2 mt-5 text-sm sm:text-base md:text-base lg:text-base text-gray-700 text-justify leading-relaxed"
                 >
                     We are diversified multinational organization headquartered in the
                     United Arab Emirates, with operations across six countries — the UAE,
@@ -167,7 +167,7 @@ const AboutUsSection = () => {
                 </p>
                 <p
                     ref={(el) => (paragraphRefs.current[1] = el)}
-                    className="mb-2 text-sm sm:text-base md:text-base lg:text-base text-gray-700 leading-relaxed"
+                    className="mb-2 text-sm sm:text-base md:text-base text-justify lg:text-base text-gray-700 leading-relaxed"
                 >
                     Driven by a commitment to excellence, innovation, and sustainability,
                     Razib Group offers comprehensive project capabilities that span from
@@ -179,7 +179,7 @@ const AboutUsSection = () => {
                 </p>
                 <p
                     ref={(el) => (paragraphRefs.current[2] = el)}
-                    className="mb-2 text-sm sm:text-base md:text-base lg:text-base text-gray-700 leading-relaxed"
+                    className="mb-2 text-sm sm:text-base md:text-base text-justify lg:text-base text-gray-700 leading-relaxed"
                 >
                     Built on the collective expertise of its subsidiaries and a highly
                     skilled workforce, Razib Group has earned a reputation for delivering
@@ -194,8 +194,8 @@ const AboutUsSection = () => {
             </div>
 
             {/* Images Section */}
-            <div className="w-full lg:w-[30%] grid grid-cols-2 gap-4 lg:flex lg:flex-col lg:gap-2">
-                <div className="w-full lg:w-[210] overflow-hidden rounded-2xl">
+            <div className="w-full lg:w-[30%] grid grid-cols-2 mt-2 gap-4 lg:flex lg:flex-col lg:gap-2">
+                <div className="w-full lg:w-[220] overflow-hidden rounded-2xl">
                     <Image
                         ref={(el) => (imageRefs.current[0] = el)}
                         src="/images/About-1.jpg"
@@ -205,7 +205,7 @@ const AboutUsSection = () => {
                         className="object-cover rounded-2xl w-full h-auto transition-all duration-300 cursor-pointer"
                     />
                 </div>
-                <div className="w-full lg:w-[210] lg:ml-24 overflow-hidden rounded-2xl">
+                <div className="w-full lg:w-[220] lg:ml-24 overflow-hidden rounded-2xl">
                     <Image
                         ref={(el) => (imageRefs.current[1] = el)}
                         src="/images/About-2.jpg"
@@ -215,7 +215,7 @@ const AboutUsSection = () => {
                         className="object-cover rounded-2xl w-full h-auto transition-all duration-300 cursor-pointer"
                     />
                 </div>
-                <div className="w-full lg:w-[210] overflow-hidden rounded-2xl">
+                <div className="w-full lg:w-[220] overflow-hidden rounded-2xl">
                     <Image
                         ref={(el) => (imageRefs.current[2] = el)}
                         src="/images/About-3.jpg"
@@ -225,7 +225,7 @@ const AboutUsSection = () => {
                         className="object-cover rounded-2xl w-full h-auto transition-all duration-300 cursor-pointer"
                     />
                 </div>
-                <div className="w-full lg:w-[210] lg:ml-24 overflow-hidden rounded-2xl">
+                <div className="w-full lg:w-[220] lg:ml-24 overflow-hidden rounded-2xl">
                     <Image
                         ref={(el) => (imageRefs.current[3] = el)}
                         src="/images/About-4.jpg"

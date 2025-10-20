@@ -176,7 +176,7 @@ export default function EngineeringPage() {
       {/* Hero Section */}
       <section
         ref={heroRef}
-        className="relative w-full h-[70vh] sm:h-[80vh] md:h-[90vh] overflow-hidden"
+        className="relative mt-4 w-full h-[70vh] sm:h-[80vh] md:h-[90vh] overflow-hidden"
       >
         <img
           src="/images/civil-bg.jpg"
@@ -186,7 +186,7 @@ export default function EngineeringPage() {
         <div className="hero-content absolute inset-0 bg-black/50 flex flex-col items-center justify-center text-center px-4">
           <MdEngineering className="text-[#ff9800] text-5xl sm:text-6xl md:text-7xl mb-4 animate-pulse" />
           <h1 className="text-white text-3xl sm:text-4xl md:text-6xl font-semibold mb-3 leading-tight">
-            Engineering & Infrastructure
+            Civil Engineering & Infrastructure
           </h1>
           <p className="text-gray-200 text-base sm:text-lg md:text-xl max-w-3xl">
             Precision. Performance. Progress — Building the foundation for sustainable development.
@@ -206,7 +206,7 @@ export default function EngineeringPage() {
       {/* What We Do */}
       <section
         ref={whatWeDoRef}
-        className="max-w-6xl mx-auto px-6 py-16 md:py-24"
+        className="max-w-6xl mx-auto bg-white px-6 py-16 md:py-24"
       >
         <h2 className="text-2xl sm:text-3xl font-bold mb-6 border-l-4 border-[#ff9800] pl-3 text-[#0c0d62] flex items-center gap-3">
           <FaTools className="text-[#ff9800]" />

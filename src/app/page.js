@@ -11,6 +11,7 @@ import Footer from "../components/Footer";
 import GetInTouch from "../components/GetInTouch";
 import { Contact } from "lucide-react";
 import ContactUs from "@/components/ContactUs";
+import Gallery from "./gallery/page";
 export default function Home() {
   useEffect(() => {
     if (window.location.hash) {
@@ -30,6 +31,7 @@ export default function Home() {
       <AboutUs />
       <Services />
       <GetInTouch />
+      <Gallery/>
       <ContactUs />
       <Footer />
     </div>

@@ -6,38 +6,27 @@ import Link from "next/link";
 // import { FaWrench, FaHardHat } from "react-icons/fa";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-
+import "./style.css"
 gsap.registerPlugin(ScrollTrigger);
 
 const services = [
     {
         id: "engineering",
-        title: "Engineering & Infrastructure",
-        description:
-            "Infrastructure design solutions with expert engineering insights.",
-        // icon: <FiTool className="text-2xl primary" />,
+        title: "Civil Engineering & Infrastructure ",
     },
     {
         id: "telecom-solutions",
         title: "Telecom Solutions",
-        description:
-            "Comprehensive land development, and project management services.",
-        // icon: <FaHardHat className="text-2xl primary" />,
     },
     {
         id: "technology-consulting",
         title: "Technology & IT Consulting",
-        description:
-            "From concept we deliver high-quality construction projects on time.",
-        // icon: <GiBrickWall className="text-2xl primary" />,
+
     },
     {
         id: "tax-legal-advisory",
         title: "Tax & Legal Advisory",
-        description:
-            "Reliable maintenance and repair services to ensure operational excellence.",
-        // icon: <FaWrench className="text-2xl primary" />,
-    },
+    }
 ];
 
 export default function ServicesPage() {
@@ -87,7 +76,7 @@ export default function ServicesPage() {
             id="services"
         >
             <div className="text-center mb-12">
-                <p className="text-base sm:text-lg font-semibold text-[#ff9800] uppercase tracking-wide">
+                <p className=" lg:text-2xl montserrat-bold text-2xl text-[#ff9800] uppercase tracking-wide">
                     Our Services
                 </p>
                 <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold text-[#0c0d62] leading-tight">
@@ -104,36 +93,34 @@ export default function ServicesPage() {
                     <div
                         key={service.id}
                         ref={(el) => (cardRefs.current[index] = el)}
-                        className="bg-[#0c0d62] p-6 rounded-2xl shadow-lg border transition-all duration-300 ease-out relative hover:scale-105 hover:bg-[#ff9800] hover:shadow-[0_0_25px_rgba(12,13,98,0.6)] hover:border-[#1a1bbf]">
-
+                        className="group bg-[#0c0d62] p-6 rounded-2xl border transition-all duration-300 ease-out relative hover:bg-[#ff9800] "
+                    >
+                        {/* Inner div */}
                         <div
-                            key={service.id}
-                            ref={(el) => (cardRefs.current[index] = el)}
-                            className="bg-[#0c0d62] p-6 rounded-2xl shadow-lg border transition-all duration-300 ease-out relative 
-  hover:scale-105 hover:bg-[#ff9800] hover:shadow-[0_0_25px_rgba(12,13,98,0.6)] hover:border-[#1a1bbf] group"
+                            className="group bg-[#0c0d62] p-6 rounded-2xl shadow-lg border transition-all duration-300 ease-out flex flex-col items-center justify-center
+             hover:scale-105 hover:bg-[#0c0d62] hover:shadow-[0_0_25px_rgba(12,13,98,0.6)]"
                         >
                             <div className="mt-8">
-                                <h3
-                                    className="text-md font-bold mb-3 text-white transition-colors duration-300 group-hover:text-black"
-                                >
+                                <h3 className="text-md font-bold mb-3 text-white transition-colors duration-300 group-hover:text-white text-center">
                                     {service.title}
                                 </h3>
 
-                                <p
-                                    className="text-white mb-5 montserrat-regular transition-colors duration-400 group-hover:text-black"
-                                >
+                                <p className="text-white mb-5 montserrat-regular transition-colors duration-400 group-hover:text-white">
                                     {service.description}
                                 </p>
 
                                 <Link href={`/services/${service.id}`}>
                                     <button
-                                        className="flex items-center text-sm font-semibold py-2 px-4 rounded-lg border border-[#ffbf5e] text-[#ffbf5e] transition-all duration-400 ease-in-out  hover:bg-[#ff9800] hover:text-[#0c0d62] hover:border-[#0c0d62]group-hover:bg-[#ff9800] group-hover:text-[#0c0d62] group-hover:border-black"
+                                        className="flex items-center text-sm font-semibold py-2 px-4 rounded-lg border border-[#ffbf5e] text-white
+                   transition-all duration-400 ease-in-out m-auto
+                   group-hover:bg-[#ff9800] group-hover:text-[#0c0d62] group-hover:border-[#0c0d62]"
                                     >
                                         Read More <span className="ml-2">&rarr;</span>
                                     </button>
                                 </Link>
                             </div>
                         </div>
+
 
 
                     </div>

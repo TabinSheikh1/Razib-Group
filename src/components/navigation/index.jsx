@@ -9,7 +9,8 @@ const navItems = [
     { name: "Services", id: "services", scroll: true },
     // { name: "Projects", href: "/projects" },
     // { name: "Careers", href: "/careers" },
-    { name: "Contact", href: "#contact" },
+    { name: "Contact", href: "#contact"},
+    { name:"Events & Insights", id:"events",href: "#events", scroll:true}
 ];
 
 export default function Navbar() {
@@ -74,7 +75,7 @@ export default function Navbar() {
                     <img
                         src="/images/Logo-1.png"
                         alt="Razib Group Logo"
-                        className={`w-[125px] scale-325 object-contain transition-opacity duration-1000 ease-out ${logoLoaded ? "opacity-100" : "opacity-0"
+                        className={`w-[200px] scale-325 object-contain transition-opacity duration-1000 ease-out ${logoLoaded ? "opacity-100" : "opacity-0"
                             }`}
                     />
                 </Link>
@@ -92,7 +93,7 @@ export default function Navbar() {
             </div>
 
             {/* Desktop Menu */}
-            <div className="hidden lg:flex items-center space-x-8">
+            <div className="hidden lg:flex items-center space-x-28">
                 <div className="flex space-x-6 text-base font-medium">
                     {navItems.map((item) =>
                         item.scroll ? (
