@@ -141,7 +141,7 @@ const AboutUsSection = () => {
         <div
             ref={sectionRef}
             id="aboutUs"
-            className="m-auto w-[90%] flex flex-col lg:flex-row gap-10 py-5 lg:py-8"
+            className="m-auto w-[90%] flex flex-col lg:flex-row gap-10 py-5 lg:py-8 bg-white"
         >
             {/* Text Section */}
             <div ref={textRef} className="w-full lg:w-[70%]">

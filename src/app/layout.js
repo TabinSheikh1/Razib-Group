@@ -15,7 +15,7 @@ export const metadata = {
   title: "Razib Group",
   description: "Official Website Of Razib Group",
    icons: {
-    icon: "/fav.png", 
+    icon: "/fav.ico", 
   },
 };
 
