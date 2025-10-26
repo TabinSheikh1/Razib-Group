@@ -10,12 +10,24 @@ const events = [
         name: "Fluxx Conference & Awards 2025-Qatar",
         slug: "gallery/events/awards",
         image: "/images/awards-1.jpg"
-    }
-    // {
-    //     name: "Annual Meet",
-    //     slug: "annual-meet",
-    //     image: "/images/events/annual-meet.jpg"
-    // },
+    },
+    {
+        name: "Razib Group Angola Office",
+        slug: "gallery/events/angola-office",
+        image: "/images/office-1.jpg"
+    },
+
+    {
+        name: "Razib Group Civil Projects",
+        slug: "gallery/events/civil-projects",
+        image: "/images/civil-1.jpg"
+    },
+
+    {
+        name: "Razib Group Telecom Projects",
+        slug: "gallery/events/telecom-projects",
+        image: "/images/telecom-5.jpg"
+    },
 ];
 
 export default function Gallery() {

@@ -9,7 +9,7 @@ const navItems = [
     { name: "Services", id: "services", scroll: true },
     // { name: "Projects", href: "/projects" },
     // { name: "Careers", href: "/careers" },
-    { name: "Contact", href: "#contact"},
+    { name: "Contact", id: "contact",scroll:true},
     { name:"Events & Insights", id:"events",href: "#events", scroll:true}
 ];
 

@@ -184,13 +184,34 @@ export default function TechnologyConsultingPage() {
             </section>
 
             {/* Example Projects / Clients */}
-            <section ref={projectsRef} className="max-w-6xl mx-auto px-6 py-16 md:py-24">
+            <section ref={projectsRef} className="bg-white max-w-6xl mx-auto px-6 py-16 md:py-24">
                 <h2 className="text-2xl sm:text-3xl font-bold mb-10 border-l-4 border-[#ff9800] pl-3 text-[#0c0d62] flex items-center gap-3">
                     <FaServer className="text-[#ff9800]" />
-                    Example Projects / Clients
+                    Projects
                 </h2>
 
-                <div className="grid gap-8 sm:grid-cols-2 md:grid-cols-3">
+                <div className="w-[90%] bg-white md:w-[80%] lg:w-[70%] mx-auto">
+                    <ul className="space-y-4">
+                        {[
+                            "Design and Implementation of a Mobile App for Maintenance Support Services",
+                            "Corporate Facility & Employee Support Mobile App",
+                            "Digital Transformation – Group Website Revamp",
+                            "Tower360 – Intelligent Telecom Tower Management App",
+
+                        ].map((item, index) => (
+                            <li
+                                key={index}
+                                className="flex items-start gap-3 text-gray-800 text-base md:text-lg font-medium"
+                            >
+                                <span className="w-2 h-2 mt-2 rounded-full bg-gradient-to-r from-[#ff9800] to-[#0c0d62] shadow"></span>
+                                <span>{item}</span>
+                            </li>
+                        ))}
+                    </ul>
+                </div>
+
+
+                {/* <div className="grid gap-8 sm:grid-cols-2 md:grid-cols-3">
                     {[
                         {
                             icon: <FaLaptopCode />,
@@ -218,7 +239,7 @@ export default function TechnologyConsultingPage() {
                             <p className="text-gray-600">{item.desc}</p>
                         </div>
                     ))}
-                </div>
+                </div> */}
             </section>
 
             <Footer />

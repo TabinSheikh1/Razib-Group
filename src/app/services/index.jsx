@@ -12,7 +12,7 @@ gsap.registerPlugin(ScrollTrigger);
 const services = [
     {
         id: "engineering",
-        title: "Civil Engineering & Infrastructure ",
+        title: "Civil Construction & Infrastructure ",
     },
     {
         id: "telecom-solutions",
@@ -26,6 +26,15 @@ const services = [
     {
         id: "tax-legal-advisory",
         title: "Tax & Legal Advisory",
+    },
+
+    {
+        id: "maintenance-services",
+        title: "Maintenance Services",
+    },
+    {
+        id: "supermarket-service",
+        title: "Online & Offline Supermarkets",
     }
 ];
 
@@ -88,7 +97,7 @@ export default function ServicesPage() {
                 </p>
             </div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 ">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 ">
                 {services.map((service, index) => (
                     <div
                         key={service.id}

@@ -78,7 +78,7 @@ export default function ContactUs() {
               {current.phone}
             </p>
             <p>
-              <span className="font-semibold text-[#0c0d62]">Careers:</span>{" "}
+              <span className="font-semibold text-[#0c0d62]">Inquiry:</span>{" "}
               <a
                 href={`mailto:${current.email}`}
                 className="text-[#0c0d62] hover:text-[#ff9800] hover:underline"

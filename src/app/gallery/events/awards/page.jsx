@@ -2,7 +2,7 @@ import Navbar from "@/components/navigation";
 import Image from "next/image";
 import Link from "next/link";
 
-export default function CricketMatch() {
+export default function Awards() {
     const images = [
         "/images/awards-1.jpg",
         "/images/awards-2.png",

@@ -186,7 +186,7 @@ export default function EngineeringPage() {
         <div className="hero-content absolute inset-0 bg-black/50 flex flex-col items-center justify-center text-center px-4">
           <MdEngineering className="text-[#ff9800] text-5xl sm:text-6xl md:text-7xl mb-4 animate-pulse" />
           <h1 className="text-white text-3xl sm:text-4xl md:text-6xl font-semibold mb-3 leading-tight">
-            Civil Engineering & Infrastructure
+            Civil Construction & Infrastructure
           </h1>
           <p className="text-gray-200 text-base sm:text-lg md:text-xl max-w-3xl">
             Precision. Performance. Progress — Building the foundation for sustainable development.
@@ -270,9 +270,9 @@ export default function EngineeringPage() {
         ref={projectsRef}
         className="max-w-6xl mx-auto px-6 py-16 md:py-24"
       >
-        <h2 className="text-2xl sm:text-3xl font-bold mb-10 border-l-4 border-[#ff9800] pl-3 text-[#0c0d62] flex items-center gap-3">
+        <h2 className=" bg-white text-2xl sm:text-3xl font-bold mb-10 border-l-4 border-[#ff9800] pl-3 text-[#0c0d62] flex items-center gap-3">
           <FaRoad className="text-[#ff9800]" />
-          Example Projects / Clients
+          Projects
         </h2>
 
         <div className="grid gap-8 sm:grid-cols-2 md:grid-cols-3">

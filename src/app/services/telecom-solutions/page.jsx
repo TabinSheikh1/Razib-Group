@@ -206,9 +206,9 @@ export default function TelecomSolutionsPage() {
 
             {/* Example Projects / Clients */}
             <section ref={projectsRef} className="max-w-6xl mx-auto px-6 py-16 md:py-24">
-                <h2 className="text-2xl sm:text-3xl font-bold mb-10 border-l-4 border-[#ff9800] pl-3 text-[#0c0d62] flex items-center gap-3">
+                <h2 className="bg-white text-2xl sm:text-3xl font-bold mb-10 border-l-4 border-[#ff9800] pl-3 text-[#0c0d62] flex items-center gap-3">
                     <FaNetworkWired className="text-[#ff9800]" />
-                    Example Projects / Clients
+                    Projects
                 </h2>
 
                 <div className="grid gap-8 sm:grid-cols-2 md:grid-cols-3">

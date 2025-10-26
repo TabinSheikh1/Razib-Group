@@ -10,7 +10,7 @@ const slides = [
     { id: 1, src: '/images/civil-bg.jpg', alt: 'Modern skyscrapers from below' },
     { id: 2, src: '/images/technology-consulting-bg.jpg', alt: 'City skyline at dusk' },
     { id: 3, src: '/images/tax-legal-advisory-bg.jpg', alt: 'Abstract view of glass buildings' },
-    { id: 4, src: '/images/hero.png', alt: 'Owner' },
+    { id: 4, src: '/images/owner.png', alt: 'Owner' },
 ];
 
 export default function HeroSection() {
