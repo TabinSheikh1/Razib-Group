@@ -32,7 +32,7 @@ const events = [
 
 export default function Gallery() {
     return (
-        <section id="events">
+        <section id="events" className="bg-white">
             <div className="p-8">
                 <div className="text-center mb-6">
                     <h1 className="lg:text-4xl text-2xl font-bold text-[#0c0d62] tracking-wide">

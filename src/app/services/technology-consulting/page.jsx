@@ -92,7 +92,7 @@ export default function TechnologyConsultingPage() {
     }, []);
 
     return (
-        <div className="font-montserrat text-gray-800">
+        <div className="font-montserrat text-gray-800 bg-white">
             <Navbar />
 
             {/* Hero Section */}
