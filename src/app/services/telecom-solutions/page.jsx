@@ -210,36 +210,26 @@ export default function TelecomSolutionsPage() {
                     <FaNetworkWired className="text-[#ff9800]" />
                     Projects
                 </h2>
+                
+                 <div className="w-[90%] bg-white md:w-[80%] lg:w-[70%] mx-auto">
+                    <ul className="space-y-4">
+                        {[
+                            "Africell Project Unitel (Antos) Project"
 
-                <div className="grid gap-8 sm:grid-cols-2 md:grid-cols-3">
-                    {[
-                        {
-                            icon: <FaTowerCell />,
-                            title: "Network Deployment & Maintenance",
-                            desc: "Supporting leading telecom operators across GCC and Africa with full-scale network deployment and O&M.",
-                        },
-                        {
-                            icon: <FaTools />,
-                            title: "Turnkey Tower Construction",
-                            desc: "Delivered complete tower construction and managed services projects in Bangladesh and Congo.",
-                        },
-                        {
-                            icon: <FaGlobe />,
-                            title: "FTTH Rollout Projects",
-                            desc: "Fiber-to-the-home rollout for enterprise and government clients ensuring high-speed, reliable connectivity.",
-                        },
-                    ].map((item, index) => (
-                        <div
-                            key={index}
-                            ref={(el) => (projectCardRefs.current[index] = el)}
-                            className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-2"
-                        >
-                            <div className="text-[#ff9800] text-4xl mb-3">{item.icon}</div>
-                            <h3 className="text-xl font-bold mb-2 text-[#0c0d62]">{item.title}</h3>
-                            <p className="text-gray-600">{item.desc}</p>
-                        </div>
-                    ))}
+                        ].map((item, index) => (
+                            <li
+                                key={index}
+                                className="flex items-start gap-3 text-gray-800 text-base md:text-lg font-medium"
+                            >
+                                <span className="w-2 h-2 mt-2 rounded-full bg-gradient-to-r from-[#ff9800] to-[#0c0d62] shadow"></span>
+                                <span>{item}</span>
+                            </li>
+                        ))}
+                    </ul>
                 </div>
+
+
+                
             </section>
 
             <Footer />

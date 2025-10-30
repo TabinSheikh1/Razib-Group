@@ -216,37 +216,25 @@ export default function MaintenancePage() {
                     <FaBuilding className="text-[#ff9800]" />
                     Projects
                 </h2>
-                <div className="grid gap-8 sm:grid-cols-2 md:grid-cols-3">
-                    {[
-                        {
-                            title: "Facility Maintenance (UAE & KSA)",
-                            desc: "Long-term maintenance for industrial and commercial buildings.",
-                            icon: <FaBuilding />,
-                        },
-                        {
-                            title: "Telecom Infrastructure Support",
-                            desc: "Managed services for telecom networks in Angola & Bangladesh.",
-                            icon: <FaTools />,
-                        },
-                        {
-                            title: "Government & Private Sector",
-                            desc: "Preventive maintenance & structural rehabilitation in India & Congo.",
-                            icon: <FaCheckCircle />,
-                        },
-                    ].map((item, index) => (
-                        <div
-                            key={index}
-                            ref={(el) => (projectCardRefs.current[index] = el)}
-                            className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-transform hover:-translate-y-2 duration-300"
-                        >
-                            <div className="text-[#ff9800] text-4xl mb-3">{item.icon}</div>
-                            <h3 className="text-xl font-bold text-[#0c0d62] mb-2">
-                                {item.title}
-                            </h3>
-                            <p className="text-gray-600">{item.desc}</p>
-                        </div>
-                    ))}
+
+                 <div className="w-[90%] bg-white md:w-[80%] lg:w-[70%] mx-auto">
+                    <ul className="space-y-4">
+                        {[
+                            "Africell (Digis)",
+
+                        ].map((item, index) => (
+                            <li
+                                key={index}
+                                className="flex items-start gap-3 text-gray-800 text-base md:text-lg font-medium"
+                            >
+                                <span className="w-2 h-2 mt-2 rounded-full bg-gradient-to-r from-[#ff9800] to-[#0c0d62] shadow"></span>
+                                <span>{item}</span>
+                            </li>
+                        ))}
+                    </ul>
                 </div>
+
+                
             </section>
 
             <Footer />

@@ -275,7 +275,32 @@ export default function EngineeringPage() {
           Projects
         </h2>
 
-        <div className="grid gap-8 sm:grid-cols-2 md:grid-cols-3">
+         <div className="w-[90%] bg-white md:w-[80%] lg:w-[70%] mx-auto">
+                    <ul className="space-y-4">
+                        {[
+                            "Redstone Warehouse Project",
+                            "Kifica Retail Park Project (Fabinco)",
+                            "Lua Comercio Geral Building Project",
+                            "Sivam Hotel (PEB)",
+                            "Bunty Farma Project",
+                            "Ronak Farma Project",
+                            "Buitanda Project",
+                            "KPL Transmission Project",
+
+                        ].map((item, index) => (
+                            <li
+                                key={index}
+                                className="flex items-start gap-3 text-gray-800 text-base md:text-lg font-medium"
+                            >
+                                <span className="w-2 h-2 mt-2 rounded-full bg-gradient-to-r from-[#ff9800] to-[#0c0d62] shadow"></span>
+                                <span>{item}</span>
+                            </li>
+                        ))}
+                    </ul>
+                </div>
+
+
+        {/* <div className="grid gap-8 sm:grid-cols-2 md:grid-cols-3">
           {[
             {
               icon: <FaRoad />,
@@ -305,7 +330,7 @@ export default function EngineeringPage() {
               <p className="text-gray-600">{item.desc}</p>
             </div>
           ))}
-        </div>
+        </div> */}
       </section>
       <Footer />
     </div>
