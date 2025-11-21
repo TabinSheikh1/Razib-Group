@@ -214,7 +214,8 @@ export default function TelecomSolutionsPage() {
                  <div className="w-[90%] bg-white md:w-[80%] lg:w-[70%] mx-auto">
                     <ul className="space-y-4">
                         {[
-                            "Africell Project Unitel (Antos) Project"
+                            "Africell End to End Project",
+                            "Unitel (Antos) Project"
 
                         ].map((item, index) => (
                             <li

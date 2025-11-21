@@ -35,7 +35,7 @@ export default function CricketMatch() {
         <div className="w-[90%] mx-auto mt-8 rounded-xl overflow-hidden shadow-lg">
           <video
             className="w-full h-[400px] md:h-[500px] object-cover"
-            src="/videos/cricketMatch.mp4" // place cricketMatch.mp4 in the public folder
+            src="https://res.cloudinary.com/dmjbxzsau/video/upload/v1763757635/cricketMatch_eharq7.mp4" // place cricketMatch.mp4 in the public folder
             autoPlay
             loop
             muted
