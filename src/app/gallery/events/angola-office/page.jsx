@@ -5,11 +5,11 @@ import Link from "next/link";
 export default function AngolaOffice() {
     const images = [
         "/images/office-1.jpg",
-        "/images/office-2.jpg",
-        "/images/office-3.jpg",
-        "/images/office-4.jpg",
-        "/images/office-5.jpg",
-        "/images/office-6.jpg",
+        // "/images/office-2.jpg",
+        // "/images/office-3.jpg",
+        // "/images/office-4.jpg",
+        // "/images/office-5.jpg",
+        // "/images/office-6.jpg",
     ];
 
     return (

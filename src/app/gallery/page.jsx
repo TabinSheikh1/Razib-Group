@@ -12,7 +12,7 @@ const events = [
         image: "/images/awards-1.jpg"
     },
     {
-        name: "Razib Group Angola Office",
+        name: "Razib Group UAE Head Office",
         slug: "gallery/events/angola-office",
         image: "/images/office-1.jpg"
     },
@@ -27,6 +27,11 @@ const events = [
         name: "Razib Group Telecom Projects",
         slug: "gallery/events/telecom-projects",
         image: "/images/telecom-5.jpg"
+    },
+    {
+        name: "Angola Our Country Coordinate Office and Angola Top Management Team",
+        slug: "gallery/events/country-office",
+        image: "/images/angola-12.jpg"
     },
 ];
 
