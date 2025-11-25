@@ -5,11 +5,25 @@ import Link from "next/link";
 export default function AngolaOffice() {
     const images = [
         "/images/office-1.jpg",
-        // "/images/office-2.jpg",
-        // "/images/office-3.jpg",
-        // "/images/office-4.jpg",
+        "/images/office-2.jpg",
+        "/images/office-3.jpg",
+        // "/images/office-13.jpg", same as img-3
+        "/images/office-11.jpg",
+        "/images/office-12.jpg",
         // "/images/office-5.jpg",
-        // "/images/office-6.jpg",
+        "/images/office-20.jpg",
+        "/images/office-21.jpg",
+        "/images/office-7.jpg",
+        "/images/office-8.jpg",
+        "/images/office-9.jpg",
+        "/images/office-10.jpg",
+        "/images/office-14.jpg",
+        "/images/office-15.jpg",
+        "/images/office-17.jpg",
+        "/images/office-23.jpg",
+         "/images/office-4.jpg",
+        "/images/office-18.jpg",
+        "/images/office-19.jpg",
     ];
 
     return (

@@ -64,10 +64,10 @@ export default function Gallery() {
 
                             {/* Event Info */}
                             <div className="p-4 bg-white">
-                                <h2 className="text-lg font-bold group-hover:text-[#ff9800]">
+                                <h2 className="text-lg font-bold">
                                     {event.name}
                                 </h2>
-                                <p className="text-gray-900 mt-1">Click to view details</p>
+                                {/* <p className="text-gray-900 mt-1">Click to view details</p> */}
                             </div>
                         </Link>
                     ))}
