@@ -157,7 +157,7 @@ const AboutUsSection = () => {
                     className="mb-2 mt-5 text-sm sm:text-base md:text-base lg:text-base text-gray-700 text-justify leading-relaxed"
                 >
                     We are diversified multinational organization headquartered in the
-                    United Arab Emirates, with operations across six countries — the UAE,
+                    United Arab Emirates, with operations across six countries the UAE,
                     Angola, Poland, India, Bangladesh, Congo, and the Kingdom of Saudi
                     Arabia (KSA). Bringing together five specialized companies under one
                     umbrella, the Group delivers integrated solutions in civil
