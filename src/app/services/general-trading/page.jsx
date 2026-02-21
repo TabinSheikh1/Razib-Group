@@ -131,7 +131,7 @@ export default function TaxLegalAdvisoryPage() {
                 <div className="hero-content absolute inset-0 bg-black/50 flex flex-col items-center justify-center text-center px-4">
                     <FaExchangeAlt className="text-[#ff9800] text-5xl sm:text-6xl animate-pulse md:text-7xl mb-4" />
                     <h1 className="text-white text-3xl sm:text-4xl md:text-6xl font-semibold mb-3 leading-tight">
-                        General Trading – UAE
+                        General Trading
                     </h1>
                     <p className="text-gray-200 text-base sm:text-lg md:text-xl max-w-3xl">
                         Global Reach. Local Strength. Reliable Supply — Delivering value across borders.</p>
@@ -154,9 +154,9 @@ export default function TaxLegalAdvisoryPage() {
                     What We Do
                 </h2>
                 <p className="text-gray-600 leading-relaxed text-base sm:text-lg">
-                    Perfect World subsidiary company of "Razib Group" provides comprehensive General Trading services in the United Arab Emirates, supporting businesses across construction, industrial, retail, and commercial sectors. We specialize in the sourcing, procurement, import, export, and distribution of a wide range of products, including building materials, industrial equipment, consumer goods, IT products, and project supplies.<br></br>
+                    Razib Group’s General Trading Division provides reliable and efficient sourcing, procurement, and supply chain solutions across the UAE and international markets. We specialize in the trading and distribution of construction materials, industrial equipment, electrical and mechanical products, telecom components, IT hardware, consumer goods, and project-based supplies.<br></br>
 
-                    <br></br>Leveraging strong supplier networks and strategic partnerships, we ensure reliable product availability, competitive pricing, and efficient logistics management. Our trading operations are designed to support large-scale projects as well as ongoing commercial supply requirements across the UAE and international markets.<br></br>
+                    <br></br>Leveraging our global network of manufacturers, suppliers, and logistics partners, we manage the complete procurement cycle from supplier identification and quality verification to import/export coordination, customs clearance, warehousing, and last-mile delivery.<br></br>
 
                     <br></br>Our trading operations are structured to support large-scale infrastructure projects, commercial enterprises, government contracts, and retail distribution channels, ensuring timely delivery, cost efficiency, and product compliance with regional standards.
 
