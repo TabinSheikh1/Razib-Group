@@ -35,6 +35,14 @@ const services = [
     {
         id: "supermarket-service",
         title: "Online & Offline Supermarkets",
+    },
+    {
+        id: "technical-services",
+        title: "Technical Services – UAE",
+    },
+    {
+        id: "general-trading",
+        title: "General Trading – UAE",
     }
 ];
 
