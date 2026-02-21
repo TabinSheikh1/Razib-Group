@@ -156,42 +156,34 @@ const AboutUsSection = () => {
                     ref={(el) => (paragraphRefs.current[0] = el)}
                     className="mb-2 mt-5 text-sm sm:text-base md:text-base lg:text-base text-gray-700 text-justify leading-relaxed"
                 >
-                    We are diversified multinational organization headquartered in the
-                    United Arab Emirates, with operations across six countries the UAE,
-                    Angola, Poland, India, Bangladesh, Congo, and the Kingdom of Saudi
-                    Arabia (KSA). Bringing together five specialized companies under one
-                    umbrella, the Group delivers integrated solutions in civil
-                    engineering, construction, telecommunications, IT consulting, and
-                    legal and tax advisory, serving both public and private sector
-                    clients worldwide.
+                    Razib Group is a diversified multinational enterprise headquartered in the United Arab Emirates, with an established presence across the UAE, Angola, Poland, India, Bangladesh, Congo, and the Kingdom of Saudi Arabia (KSA). The Group brings together specialized companies under a unified structure, including Perfect World General & Technical Services (UAE), reinforcing its operational depth within the region.
                 </p>
                 <p
                     ref={(el) => (paragraphRefs.current[1] = el)}
                     className="mb-2 text-sm sm:text-base md:text-base text-justify lg:text-base text-gray-700 leading-relaxed"
                 >
-                    Driven by a commitment to excellence, innovation, and sustainability,
-                    Razib Group offers comprehensive project capabilities that span from
-                    concept development and design to execution, consulting, and
-                    long-term operational support. Our interdisciplinary approach enables
-                    seamless coordination across engineering, technology, and consulting
-                    disciplines, ensuring efficiency, quality, and value at every stage of
-                    a project.
+                    Through its integrated business model, Razib Group delivers strategic solutions across engineering, construction, telecommunications, technology consulting, tax and legal advisory, technical services, and general trading. This multidisciplinary capability enables the Group to operate seamlessly across infrastructure, digital transformation, regulatory advisory, and operational support domains.
                 </p>
                 <p
                     ref={(el) => (paragraphRefs.current[2] = el)}
                     className="mb-2 text-sm sm:text-base md:text-base text-justify lg:text-base text-gray-700 leading-relaxed"
                 >
-                    Built on the collective expertise of its subsidiaries and a highly
-                    skilled workforce, Razib Group has earned a reputation for delivering
-                    complex infrastructure and technology solutions that meet global
-                    standards of safety, reliability, and performance. Guided by
-                    integrity and driven by innovation, the Group continues to shape
-                    resilient infrastructure, strengthen digital and physical
-                    connectivity, and create sustainable value for governments,
-                    development agencies, and private enterprises across its global
-                    markets.
+                    Perfect World General & Technical Services strengthens the Group’s footprint in the UAE by providing technical, facility management, and trading solutions that support commercial, industrial, and infrastructure sectors with efficiency and regulatory compliance.
+                </p>
+                <p
+                    ref={(el) => (paragraphRefs.current[2] = el)}
+                    className="mb-2 text-sm sm:text-base md:text-base text-justify lg:text-base text-gray-700 leading-relaxed"
+                >
+                    Razib Group’s strength lies in its ability to align engineering precision, technological innovation, and advisory expertise within a single coordinated platform. From large-scale infrastructure development to enterprise transformation and long-term operational support, the Group delivers solutions that meet international standards of quality, safety, and performance.
+                </p>
+                <p
+                    ref={(el) => (paragraphRefs.current[2] = el)}
+                    className="mb-2 text-sm sm:text-base md:text-base text-justify lg:text-base text-gray-700 leading-relaxed"
+                >
+                    Guided by integrity and driven by innovation, Razib Group continues to advance resilient infrastructure, enable digital and physical connectivity, and create sustainable, long-term value for governments, institutions, and private sector partners across its global markets."
                 </p>
             </div>
+
 
             {/* Images Section */}
             <div className="w-full lg:w-[30%] grid grid-cols-2 mt-2 gap-4 lg:flex lg:flex-col lg:gap-2">
