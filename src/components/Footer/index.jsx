@@ -105,7 +105,7 @@ export default function Footer() {
                                     size={16}
                                     className="mr-3 mt-1 text-[#ff9800] flex-shrink-0"
                                 />
-                                <span>NBQ bank building 1st floor office #105 Khalid bin Al Waleed street, Al Hamriya Bur, Dubai</span>
+                                <span>NBQ bank building 1st floor office #105 Khalid bin Al Waleed street, Al Hamriya Bur-Dubai, Dubai</span>
                             </li>
                             <li className="flex items-start text-gray-400">
                                 <FiMapPin
